@@ -73,8 +73,12 @@ const char index_html[] PROGMEM = R"rawliteral(
           <input type="text" id="password" name="password" placeholder="$password" />
           <label for="lname">Device id</label>
           <input type="text" id="device_id" name="device_id" placeholder="$device_id" />
-          <label for="lname">Name</label>
-          <input type="text" id="name" name="name" placeholder="$name" />
+          <label for="lname">Client ID</label>
+          <input type="text" id="client_id" name="client_id" placeholder="$client_id" />
+          <label for="lname">MQTT Username</label>
+          <input type="text" id="mqtt_username" name="mqtt_username" placeholder="$mqtt_username" />
+          <label for="lname">mqtt_password</label>
+          <input type="text" id="mqtt_password" name="mqtt_password" placeholder="$mqtt_password" />
           <input type="submit" value="Submit" />
         </form>
       </div>
